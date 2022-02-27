@@ -38,6 +38,8 @@ def fare_pred(Duration, Total_Stops, Journey_day, Journey_month,
 def main():
         st.title("Flight Price Predictor")
         html_temp = """
+        <div style="background-color:black;padding:5px">
+        <h1 style="color:white;text-align:center;">By Rohan Sharma</h2>
         <div style="background-color:darkblue;padding:10px">
         <h2 style="color:white;text-align:center;">Enter Information Below</h2>
         </div>
