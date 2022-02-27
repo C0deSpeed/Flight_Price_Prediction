@@ -230,7 +230,7 @@ def main():
                                                Airline_Vistara_Premium_economy,\
                                                Source_Chennai, Source_Delhi, Source_Kolkata,\
                                                Source_Mumbai, Destination_Chennai, Destination_Cochin,\
-                                               Destination_Delhi, Destination_Hyderabad, Destination_Kolkata)
+                                               Destination_Delhi, Destination_Hyderabad, Destination_Kolkata)[0]
                             st.write(f'₹{round(output,2)}')
 
              
