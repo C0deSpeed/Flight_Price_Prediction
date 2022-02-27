@@ -216,22 +216,22 @@ def main():
         #Prediction
         
         if st.button('Predict'):
-              if Source==Destination:
-                     st.write("You can't put same Source and Destination!")
-              else:
-                   st.success('The Predicted Price Is:\n')
-                   output = fare_pred(Duration, Total_Stops, Journey_day, Journey_month,\
-                                      Departure_hr, Departure_min, Arrival_hr, Arrival_min,\
-                                          Airline_Air_India, Airline_GoAir, Airline_IndiGo,\
-                                              Airline_Jet_Airways, Airline_Jet_Airways_Business,\
-                                                  Airline_Multiple_carriers,\
-                                                      Airline_Multiple_carriers_Premium_economy,\
-                                                          Airline_SpiceJet, Airline_Vistara,\
-                                                              Airline_Vistara_Premium_economy,\
-                                                                  Source_Chennai, Source_Delhi, Source_Kolkata,\
-                                                                      Source_Mumbai, Destination_Chennai, Destination_Cochin,\
-                                                                          Destination_Delhi, Destination_Hyderabad, Destination_Kolkata)
-                     st.write(f'₹{round(output,2)}')
+                     if Source==Destination:
+                            st.write("You can't put same Source and Destination!")
+                     else:
+                            st.success('The Predicted Price Is:\n')
+                            output = fare_pred(Duration, Total_Stops, Journey_day, Journey_month,\
+                                               Departure_hr, Departure_min, Arrival_hr, Arrival_min,\
+                                               Airline_Air_India, Airline_GoAir, Airline_IndiGo,\
+                                               Airline_Jet_Airways, Airline_Jet_Airways_Business,\
+                                               Airline_Multiple_carriers,\
+                                               Airline_Multiple_carriers_Premium_economy,\
+                                               Airline_SpiceJet, Airline_Vistara,\
+                                               Airline_Vistara_Premium_economy,\
+                                               Source_Chennai, Source_Delhi, Source_Kolkata,\
+                                               Source_Mumbai, Destination_Chennai, Destination_Cochin,\
+                                               Destination_Delhi, Destination_Hyderabad, Destination_Kolkata)
+                            st.write(f'₹{round(output,2)}')
 
              
             
