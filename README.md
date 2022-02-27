@@ -6,8 +6,9 @@ air travel on the basis of Arrival, Departure, Number of Stops,
 Source, Destination and the Airline.
 ## Demo
 https://share.streamlit.io/c0despeed/flight_price_prediction/main/app.py
-![App Screenshot](https://drive.google.com/file/d/1K8fyZBR4X99Afot2QtdpjmOuXWxNRXnG/view?usp=sharing)
-![App Screenshot](https://drive.google.com/file/d/1INWGcdBj-aoGHUs3hE47MOgmWU0IzrzT/view?usp=sharing)
+
+![Alt Text](https://github.com/C0deSpeed/Flight_Price_Prediction/blob/main/.ipynb_checkpoints/SS1.png)
+![Alt Text](https://drive.google.com/file/d/1INWGcdBj-aoGHUs3hE47MOgmWU0IzrzT/view?usp=sharing)
 
 ## Installation
 
