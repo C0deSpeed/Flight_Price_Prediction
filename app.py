@@ -216,7 +216,7 @@ def main():
         #Prediction
         
         if st.button('Predict'):
-                     if Source==Destination:
+                     if source==destination:
                             st.write("You can't put same Source and Destination!")
                      else:
                             st.success('The Predicted Price Is:\n')
