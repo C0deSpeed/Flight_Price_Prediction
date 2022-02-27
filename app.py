@@ -218,6 +218,8 @@ def main():
         if st.button('Predict'):
                      if source==destination:
                             st.write("You can't put same Source and Destination!")
+                     if (daparture_date==arrival) and (departure_time==arrival_time):
+                            st.write('This is "Air Travel" not "Time Travel". Change the Arrival time please!')
                      else:
                             st.success('The Predicted Price Is:\n')
                             output = fare_pred(Duration, Total_Stops, Journey_day, Journey_month,\
