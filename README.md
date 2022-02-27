@@ -25,3 +25,12 @@ connect your github profile to deploy the Streamlit Web Application.
 
 ![Alt Text](https://github.com/C0deSpeed/Flight_Price_Prediction/blob/main/.ipynb_checkpoints/SS3.png)
 
+## Bug / Feature Request
+
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an [issue](https://github.com/C0deSpeed/Flight_Price_Prediction/issues) here by including your search query and the expected result
+
+## Future Scope
+
+* Use multiple Algorithms
+* Optimize Streamlit app.py
+* Front-End
