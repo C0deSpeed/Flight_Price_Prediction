@@ -40,7 +40,7 @@ def main():
         html_temp = """
         <h5 style="color:white;text-align:left;">By Rohan Sharma</h2>
         <div style="background-color:darkblue;padding:10px">
-        <h2 style="color:white;text-align:center;">Enter Information Below</h2>
+        <h3 style="color:white;text-align:center;">Enter Information Below</h2>
         </div>
         """
         st.markdown(html_temp,unsafe_allow_html=True)
